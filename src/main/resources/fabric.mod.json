@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fuy_gg_loader",
+  "version": "${version}",
+  "name": "Loader",
+  "description": "The loader responsible for loading & updating fuy.gg/wynntils.",
+  "authors": [
+    "Essentuan"
+  ],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "environment": "client",
+  "languageAdapters": {
+    "_fuy_gg_loader": "com.busted_moments.loader.FuyLanguageAdapter"
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}"
+  },
+  "mixins": [
+    "loader.mixins.json"
+  ],
+  "custom": {
+    "modmenu": {
+      "parent": "fuy_gg",
+      "update-checker": false
+    }
+  }
+}
