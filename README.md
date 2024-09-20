@@ -4,7 +4,7 @@ The mod responsible for loading & updating both Wynntils and fuy.gg. This is a b
 
 ## Extending the loader
 
-To extend the loader first you create a [LanguageAdapter](https://maven.fabricmc.net/docs/fabric-loader-0.16.5/net/fabricmc/loader/api/LanguageAdapter.html) then add a [Dependency](https://github.com/Essentuan/fuy.gg-loader/blob/master/src/main/kotlin/com/busted_moments/loader/api/Dependency.kt) to the [FuyLoader](https://github.com/Essentuan/fuy.gg-loader/blob/master/src/main/kotlin/com/busted_moments/loader/FuyLoader.kt). And thats it! Your mod will now be automatically updated and loaded.
+To extend the loader first you create a [LanguageAdapter](https://maven.fabricmc.net/docs/fabric-loader-0.16.5/net/fabricmc/loader/api/LanguageAdapter.html) then add a [Dependency](https://github.com/Essentuan/fuy.gg-loader/blob/master/src/main/kotlin/com/busted_moments/loader/api/Dependency.kt) to the [FuyLoader](https://github.com/Essentuan/fuy.gg-loader/blob/master/src/main/kotlin/com/busted_moments/loader/FuyLoader.kt) in the `<init>` method of your LanguageAdapter. And thats it! Your mod will now be automatically updated and loaded.
 
 ## Quirks
 
