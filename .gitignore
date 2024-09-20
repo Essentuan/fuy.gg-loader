@@ -23,7 +23,6 @@ atlassian-ide-plugin.xml
 *.ctxt
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -102,6 +101,7 @@ $RECYCLE.BIN/
 
 .gradle
 build/
+libs/artemis
 
 # Ignore Gradle GUI config
 gradle-app.setting
